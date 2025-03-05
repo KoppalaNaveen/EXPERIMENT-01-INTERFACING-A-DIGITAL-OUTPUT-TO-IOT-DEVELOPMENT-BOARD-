@@ -1,8 +1,8 @@
-###  DATE: 
+###  DATE: 05/03/2025
 
-###  NAME: 
-###  ROLL NO :
-###  DEPARTMENT: 
+###  NAME: KOPPALA NAVEEN
+###  ROLL NO : 212223100023
+###  DEPARTMENT: CSE(CS)
 
 
 
@@ -86,14 +86,23 @@ The main features of LPC2148 include the following.
 
 
 ## STM 32 CUBE PROGRAM :
-
+```
+while (1)
+  {
+	  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_0, GPIO_PIN_RESET);
+	  HAL_Delay(1000);
+	  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_0, GPIO_PIN_SET);
+   HAL_Delay(1000);
+  }
+```
 
 
 
 
 ## OUTPUT  :
  
- 
+ ![iot-exp-1-output](https://github.com/user-attachments/assets/5bef5156-03c9-42fd-9365-44adf66ade90)
+
  
  
 ## Result :
